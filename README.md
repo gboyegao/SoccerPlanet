@@ -17,7 +17,8 @@ Cocoapods
 ### Installing
 
 ```
-Download Project 
+Download Project
+Open SoccerPlanet.xcworkspace
 and Run in XCode
 ```
 
