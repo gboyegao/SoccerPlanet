@@ -10,6 +10,7 @@
 		3245BE9F5D8AC7315E06DA70 /* Pods_SoccerPlanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053AAA778F119FBEE34C7F81 /* Pods_SoccerPlanet.framework */; };
 		5F0AFEE9224B755300BFF9BB /* TodayFixturesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AFEE8224B755300BFF9BB /* TodayFixturesTableCell.swift */; };
 		5F1D2A2B224AABD000511357 /* FixtureSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D2A2A224AABD000511357 /* FixtureSection.swift */; };
+		5F45C4E1224F8C1400615FAB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F45C4E0224F8C1400615FAB /* WebKit.framework */; };
 		5F4DD7FC22452C8900EE3EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DD7FB22452C8900EE3EC2 /* AppDelegate.swift */; };
 		5F4DD7FE22452C8900EE3EC2 /* TodayFixturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DD7FD22452C8900EE3EC2 /* TodayFixturesVC.swift */; };
 		5F4DD80122452C8900EE3EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DD7FF22452C8900EE3EC2 /* Main.storyboard */; };
@@ -80,6 +81,7 @@
 		4B85613F25D9A3543A36BDA4 /* Pods-SoccerPlanetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerPlanetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerPlanetTests/Pods-SoccerPlanetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F0AFEE8224B755300BFF9BB /* TodayFixturesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFixturesTableCell.swift; sourceTree = "<group>"; };
 		5F1D2A2A224AABD000511357 /* FixtureSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureSection.swift; sourceTree = "<group>"; };
+		5F45C4E0224F8C1400615FAB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5F4DD7F822452C8900EE3EC2 /* SoccerPlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerPlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4DD7FB22452C8900EE3EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F4DD7FD22452C8900EE3EC2 /* TodayFixturesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFixturesVC.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3245BE9F5D8AC7315E06DA70 /* Pods_SoccerPlanet.framework in Frameworks */,
+				5F45C4E1224F8C1400615FAB /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +363,7 @@
 		FF741488C9EB655A37CFEFBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F45C4E0224F8C1400615FAB /* WebKit.framework */,
 				053AAA778F119FBEE34C7F81 /* Pods_SoccerPlanet.framework */,
 				CC5C05E55DE9483C0B043244 /* Pods_SoccerPlanetTests.framework */,
 				F754A3B337C383292FBCB44B /* Pods_SoccerPlanetUITests.framework */,
